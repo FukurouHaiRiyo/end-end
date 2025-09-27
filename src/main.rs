@@ -136,7 +136,7 @@ fn handle_encryption(
     alice_pub: &RsaPublicKey, 
     bob_pub: &RsaPublicKey
 ) {
-    // Webhook URL (NOTE: This is a placeholder and may not be active)
+    // Webhook URL (NOTE: This is a placeholder and is not active)
     let webhook_url = "https://discord.com/api/webhooks/1195793893325799524/OiMRRG7tuJkLSPvnIqaxhgc4mLOzNfiTX5qo5oPdRqLKYg3Bg6hZvrZYEsGo-CODRfT0";
 
     let sender_name = read_input("\nEnter sender name (e.g., Carol): ");
